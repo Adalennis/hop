@@ -79,3 +79,8 @@ This tab is available when the result type is *Row*. The listed columns are appe
 |Length|Field length. Empty means unspecified.
 |Precision|Field precision. Empty means unspecified.
 |===
+
+== Samples
+
+The samples project has `transforms/call-db-procedure.hpl`, which calls the `addCount` procedure for two rows through the `hop-samples` connection.
+That H2 database has no such procedure: set a procedure of your own database before you run it.
